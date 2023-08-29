@@ -10,7 +10,8 @@ The _...news.ipynb_ file is a Jupyter Notebook file which uses the Beautiful Sou
 
 The _...weather.ipynb_ file also uses Beautiful Soup, this time to scrape [weather data](https://static.bc-edx.com/data/web/mars_facts/temperature.html) collected by the Curiosity rover on Mars.  The data from this table is compiled into a Pandas Dataframe, which is then used to generate several visualizations to see monthly temperature and pressure data.  Finally, a line graph of the daily temperature data (seen below) is generated and used to approximate the length of a Martian year to 675 Earth days (the true value is Earth 687 days).  
 
-[PICTURE]
+![temp_graph](https://github.com/SamLind11/web-scraping-challenge/assets/131621692/a5a75377-b838-4e11-8988-fa97c42022bf)
+
 
 Note: for both files, in order for the splinter object Browser to run, a device-specific was specified and passed to the Browser object when it was defined.
 
